@@ -102,7 +102,7 @@ rep1_ice_norm.write_matrix("rep1_10000_iced.matrix")
 
 ## Installation
 
-The program relies on the Accelerate and Numba modules in Anaconda to programm the GPU, numpy and scipy for general matrix computation, and pandas and cython for IO. Anaconda provides free academic subscriptions. Besides, a gpu set up with cuda-tools. Find the installation information of Accelerate and Anaconda from the [link](https://docs.continuum.io/accelerate/#installation). Once you have the prerequisition, copy the script folder and import the gpu_iced to run the matrix correction processes. All programs are running under python3.
+The program relies on the Accelerate and Numba modules in Anaconda to programm the GPU, numpy and scipy for general matrix computation, and pandas and cython for IO. Anaconda provides free academic subscriptions. Besides, a gpu sets up with cuda-tools. Find the installation information of Accelerate and Anaconda from the [link](https://docs.continuum.io/accelerate/#installation). Once you have the prerequisition, copy the script folder and import the gpu_iced to run the matrix correction processes. All programs are running on python3.
 
 ## Author
 
