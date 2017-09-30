@@ -66,7 +66,7 @@ rep1_ice_norm.plotHeatmap_on_the_fly(chromosome='chr16', resolution=10000, names
 ```
 
 
-![png](output_13_0.png)
+![png](gpu_iced/plots/output_13_0.png)
 
 
 Perform 50 iters of ICE
@@ -90,7 +90,7 @@ rep1_ice_norm.plotHeatmap_on_the_fly(chromosome='chr16', resolution=10000, names
 ```
 
 
-![png](output_17_0.png)
+![png](gpu_iced/plots/output_17_0.png)
 
 
 Save the normalized matrix as triplet table
