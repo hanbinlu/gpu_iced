@@ -1,5 +1,5 @@
 
-# gpu_ice Package Demo
+# gpu_iced Package Demo
 
 ## Introduction
 The elementwise computation of ICE normalization for HiC dataset is highly computationally expensive in particular as super-resolution HiC contact maps are available. To reduce the time of ICE normalization, the massive parallel process power of GPU is leveraged to speedup the process.
