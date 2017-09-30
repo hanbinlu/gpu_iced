@@ -106,4 +106,4 @@ The program relies on the Accelerate and Numba modules in Anaconda to programm t
 
 ## Author
 
-Hanbin Lu, hal213@ucsd.edu
+Hanbin Lu, lhb032@gmail.com
