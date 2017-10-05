@@ -39,7 +39,7 @@ Load the matrix and transfer it into the device (GPU) memory. Parameters：
 
 > filterlow_percent: filter the low coverage bins, default 0.02. Set to 0 to disable filter
 
-> include_zero: whether counting zero bins in filter percentage, default True
+> include_zero: whether counting zero bins in filter percentage, default False
 
 Using default setting to load matrix
 
