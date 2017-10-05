@@ -69,7 +69,7 @@ class ice_norm(object):
         '''
         self.input = triplet_table
         
-    def make_matrix(self, reset=0, coerce=False, out_dtype='np.float32',scale = 1, filterlow_percent=0.02, include_zero=True):
+    def make_matrix(self, reset=0, coerce=False, out_dtype='np.float32',scale = 1, filterlow_percent=0.02, include_zero=False):
         '''
         Read in triplet table and make sparse matrix. Reports properties
         of the matrix as reference. Matrix size and sparsity can be used
