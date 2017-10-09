@@ -45,7 +45,7 @@ def filter_low(indptr, indice, data, filter_bool):
     '''
     j = 0
     for i, col in enumerate(indice):
-        if i >= indptr[j+1]:
+        while i >= indptr[j+1]:
             j += 1
         if filter_bool[col] or filter_bool[j]:
             data[i] = 0
